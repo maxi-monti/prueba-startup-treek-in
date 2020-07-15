@@ -1,0 +1,8 @@
+// Animación de .info__box-image 
+
+@keyframes show-up {
+    0% {opacity: 0;}  
+    25% {opacity: 0.25;}  
+    75% {opacity: 0.50;}  
+    100% {opacity: 1;}  
+}

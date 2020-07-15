@@ -1,0 +1,51 @@
+.navbar {
+    width: 100%;
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;        
+    justify-content: left; 
+    flex-wrap: wrap;              
+    height: 15%;
+    margin: auto 0;
+    padding: 2% 5%;
+}
+
+.navbar__brand {
+    box-sizing: border-box;
+}
+
+.navbar__menu {
+    box-sizing: border-box; 
+    margin-left: 2%;
+}
+
+@media (max-width: 768px) {            /* Media Query */
+    .navbar__menu {
+      display: none; } 
+}
+
+.navbar__item {
+    color: $onyx;
+    font-family: $open-sans;
+    font-size: $small;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.navbar__hamburguer {
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {            /* Media Query */
+    .navbar__hamburguer {
+      display: none; } 
+}
+
+.navbar__hamburguer-item {
+    width: 30px;
+}
+
+
+

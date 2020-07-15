@@ -1,0 +1,70 @@
+// *** Navbar ***
+
+.navbar__button {
+    width: 20rem;
+    box-sizing: border-box; 
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {            /* Media Query */
+    .navbar__button {
+      display: none; } 
+}
+
+.navbar__button-left {
+    width: 8rem;
+    height: 2rem;
+    box-sizing: border-box; 
+    border: none;
+    background-color: $white;
+    color: $onyx;
+    font-family: $open-sans;
+    font-size: $medium;
+    font-weight: 400;
+}
+
+.navbar__button-right {
+    width: 8rem;
+    height: 2rem;
+    box-sizing: border-box; 
+    border: none;
+    background-color: $ball-blue;
+    color: white;
+    font-family: $open-sans;
+    font-size: $medium;
+    font-weight: 400;
+    margin-left: 1rem;
+
+    &:hover {
+        background-color: $middle-blue;
+      }
+
+    &:focus {
+      background-color: $lavender-gray;
+    }
+}
+
+// *** Cards ***
+
+.content__card-button {
+  width: 80%;
+  height: 2.2rem;
+  border: none;
+  background-color: $ball-blue;
+  color: white;
+  font-family: $open-sans;
+  font-size: $medium;
+  font-weight: 400;
+  margin: 1% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: $middle-blue;
+  }
+
+  &:focus {
+    background-color: $lavender-gray;
+  }
+}
